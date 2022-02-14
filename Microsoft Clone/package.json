@@ -1,0 +1,20 @@
+{
+  "name": "microsoft-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "Shikhar singh",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  },
+  "dependencies": {
+    "vite": "^2.8.1"
+  }
+}

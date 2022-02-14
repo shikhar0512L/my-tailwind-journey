@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>@Apply Directive</title>
+    <style>
+        @tailwind base;
+        @tailwind components;
+
+        .btn {
+            @apply text-white bg-yellow-400 hover: bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900;
+        }
+
+
+        @tailwind utilities;
+
+        .text-vic {
+            @apply text-yellow-800 bg-green-400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mx-44 bg-red-900 text-white text-vic">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt soluta id obcaecati, ut esse assumenda
+        dolorum sequi! Eaque sed harum dolore? Impedit, vitae?
+        <button type="button " class="btn">Yellow</button>
+    </div>
+
+</body>
+
+</html>

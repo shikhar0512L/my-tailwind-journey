@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  },
+  "dependencies": {
+    "veet": "^1.0.0-alpha.5",
+    "vite": "^2.8.0"
+  },
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "Learning tailwind css",
+  "main": "tailwind.config.js",
+  "author": "Shikhar",
+  "license": "ISC"
+}
